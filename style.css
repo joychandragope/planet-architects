@@ -1,0 +1,68 @@
+/* Common styles */
+@import url('https://fonts.googleapis.com/css2?family=Gentium+Book+Plus&family=Inter&family=Open+Sans&family=Poppins:wght@400;500&family=Roboto:wght@400;500&family=Work+Sans:wght@400;700&display=swap');
+
+body{
+    font-family: 'Work Sans', sans-serif;
+}
+button{
+    padding: 20px;
+    border-radius: 8px;
+    border:0;
+    background-color: #FF900E;
+    color: aliceblue;
+    font-family: 'Work Sans';
+    font-weight: 600;
+    margin-bottom: 50px;
+    font-size: 20px;
+}
+
+/* Navigation Bar  */
+.nav-tag{
+    display: flex;
+    justify-content: space-evenly;
+    background: rgba(255, 144, 14, 0.1);
+
+}
+.nav-tag img{
+    width: 50%;
+}
+.menu ul{
+    display: flex;
+    list-style: none;
+}
+.menu li{
+    padding: 25px;
+}
+
+/* Heading Banner styles */
+.banner{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: rgba(255, 144, 14, 0.1);
+    
+}
+.heading{
+    width: 60%;
+    
+}
+.heading h1{
+    text-align: center;
+    font-weight: 700;
+    font-size: 64px;
+}
+.heading p{
+    text-align: center;
+    color: #727272;
+    font-family: 'Work Sans';
+    font-weight: 400;
+    margin-bottom: 32px;
+    margin-top: -20px;
+}
+.banner-img{
+    text-align: center;
+    padding-bottom: 45px;
+}
+.banner img {
+    width: 75%;
+}
