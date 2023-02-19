@@ -15,7 +15,9 @@ button{
     margin-bottom: 50px;
     font-size: 20px;
 }
-
+.body-margin{
+    margin: 0 240px;
+}
 /* Navigation Bar  */
 .nav-tag{
     display: flex;
@@ -40,6 +42,7 @@ button{
     flex-direction: column;
     align-items: center;
     background: rgba(255, 144, 14, 0.1);
+    margin-bottom: 85px;
     
 }
 .heading{
@@ -65,4 +68,48 @@ button{
 }
 .banner img {
     width: 75%;
+}
+
+/* Quick list of Features */
+.quick-list{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.teams{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 8px;
+    row-gap: 8px;
+    margin-left: 55px;
+}
+.teams img{
+    width: 250px;
+    height: 250px;
+}
+
+.quick-list-caption{
+    margin-left: 70px;
+    width: 537px;
+}
+#quick-list-title{
+    font-weight: 500;
+    font-size: 45px;
+    color: #727272;
+}
+#of-our-text{
+    font-weight: 700;
+    font-size: 45px;
+    color: #131313;
+}
+#text-features{
+    font-weight: 700;
+    font-size: 45px;
+    color: #FF900E;
+}
+
+.quick-list-caption p{
+    color: #727272;
+    margin-bottom: 32px;
+    margin-top: 24px;
 }
