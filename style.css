@@ -234,6 +234,59 @@ button{
     filter: grayscale(100%);
 }
 
+/* contact us  */
+.contact-detail{
+    background-color: rgb(255, 195, 29);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-bottom: 60px;
+}
+.get-in-touch{
+    margin-top: 50px;
+}
+.get-in-touch h1{
+    font-size: 48px;
+    color: rgb(51, 51, 51);
+}
+.contact-detail input[type="name" ]{
+    padding: 15px 5px 15px 15px;
+    width: 758px;
+    font-weight: inherit;
+    font-size: inherit;
+    font-family: inherit;
+    color: inherit;
+    margin: 15px 10px 15px 55px;
+}
+.contact-detail input[type="email" ]{
+    padding: 15px 5px 15px 15px;
+    width: 758px;
+    font-weight: inherit;
+    font-size: inherit;
+    font-family: inherit;
+    color: inherit;
+    margin: 15px 10px 15px 55px;
+}
+.contact-detail input[type="text" ]{
+    padding: 15px 5px 15px 15px;
+    width: 758px;
+    height: 128px;
+    font-weight: inherit;
+    font-size: inherit;
+    font-family: inherit;
+    color: inherit;
+    margin: 15px 10px 15px 55px;
+}
+.contact{
+    margin-top: 20px;
+    margin-bottom: 40px;
+    
+}
+.contact p{
+    font-size: 20px;
+    
+}
+
 /* Footer  */
 
 footer{
