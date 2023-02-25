@@ -302,3 +302,173 @@ footer{
     font-size: 20px;
     color: #424242;
 }
+
+/* -----------------
+Mobile Device View Only 
+--------------------*/
+
+@media only screen and (max-width: 576px){
+    
+    .nav-tag {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background: rgba(255, 144, 14, 0.1);
+    }
+    .nav-tag img{
+        width: 50%;
+        text-align: center;
+    }
+    .menu ul{
+        display: flex;
+        flex-direction: column;
+        list-style: none;
+        padding: 0;
+    }
+    .heading h1 {
+        text-align: center;
+        font-weight: 700;
+        font-size: 38px;
+        margin-bottom: 52px;
+    }
+    .banner img {
+        width: 100%;
+    }
+    .quick-list {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .teams {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .teams img {
+        width: 100%;
+        height: 250px;
+    }
+    .quick-list-caption {
+        width: 100%;
+        margin-top: 30px;
+        margin-left: 27px;
+    }
+    .quick-list-caption p {
+        width: 75%;
+    }
+    .loving-features {
+        width: 100%;
+        margin-top: -120px;
+    }
+    .loving-features h1 {
+        font-weight: 700;
+        font-size: 31px;
+        border-left: 5px solid #FF900E;
+        padding-left: 20px;
+    }
+    .loving-features p {
+        color: #727272;
+        margin-bottom: 39px;
+    }
+    .feature-section {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .feature {
+        width: 75%;
+        height: 110px;
+        background: #FFFFFF;
+        box-shadow: inset 0 -3em 3em rgb(0 0 0 / 10%), 0 0 0 2px rgb(255 255 255), 0.3em 0.3em 1em rgb(0 0 0 / 30%);
+        border-radius: 8px;
+        padding: 30px 5px 70px 30px;
+    }
+    #feature-imgage img {
+        width: 75%;
+    }
+    .year-of-experience {
+        width: 239px;
+        height: 140px;
+        font-weight: 700;
+        font-size: 36px;
+        margin-top: 22px;
+        border: none;
+        position: relative;
+        left: 0;
+        top: 0;
+        bottom: 0;
+        
+    }
+    .facts {
+        margin-top: -84px;
+        margin-left: 0;
+    }
+    #fact-intro {
+        font-weight: 400;
+        font-size: 16px;
+        color: #727272;
+        width: 295px;
+    }
+    .facts h1 {
+        font-weight: 700;
+        font-size: 32px;
+    }
+    .cards {
+        display: flex;
+        flex-direction: column;
+        margin: 49px 250px 140px 257px;
+        align-items: flex-end;
+    }
+    .card {
+        margin-bottom: 19px;
+    }
+    .sponser-heading {
+        text-align: center;
+        margin-top: -95px;
+    }
+    .companies {
+        display: flex;
+        flex-direction: column;
+        margin-top: -15px;
+    }
+    .companies img {
+        margin-top: 46px;
+    }
+    .contact-detail {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+    .get-in-touch h1 {
+        font-size: 30px;
+    }
+    .contact-detail input[type="name" ] {
+        padding: 15px 5px 15px 15px;
+        width: 246px;
+        font-size: inherit;
+        font-family: inherit;
+        margin: 15px 10px 15px 15px;
+    }
+    .contact-detail input[type="email" ] {
+        padding: 15px 5px 15px 15px;
+        width: 246px;
+        font-size: inherit;
+        font-family: inherit;
+        margin: 15px 10px 15px 15px;
+    }
+    .contact-detail input[type="text" ] {
+        padding: 15px 5px 15px 15px;
+        width: 246px;
+        height: 128px;
+        font-size: inherit;
+        font-family: inherit;
+        margin: 15px 10px 15px 15px;
+    }
+    footer {
+        height: 100px;
+        margin-top: 10px;
+        font-size: 13px;
+        text-align: center;
+    }
+}
